@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/1285817f5f.js" crossorigin="anonymous"></script>
     <!-- bootstrap css link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -266,7 +268,7 @@
             </div>
 
             <div class="container mx-auto">
-                <div class="accordion g-3" id="accordionExample">
+                <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button fw-bold fs-5" type="button" data-bs-toggle="collapse"
@@ -278,7 +280,10 @@
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 The basic difference between CSS Grid Layout and CSS Flex Layout is that flexbox was
-                                designed for layout in one dimension- either a row or a column.
+                                designed for layout in one dimension- either a row or a column. Grid was designed for
+                                two-dimensional layout-rows and columns at the same time. Grid layout allow us to align
+                                elements into columns and rows. Flexbox works with all kinds of display devices and
+                                screen sizes.
                             </div>
                         </div>
                     </div>
@@ -324,14 +329,14 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
+                        <h2 class="accordion-header" id="headingfour">
                             <button class="accordion-button collapsed fw-bold fs-5" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                                aria-controls="collapseThree">
+                                data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false"
+                                aria-controls="collapsefour">
                                 What is semantic tag?
                             </button>
                         </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <strong>This is the third item's accordion body.</strong> It is hidden by default, until
@@ -355,8 +360,58 @@
         </section>
         <!-- Question Answer Part end -->
 
+        <!-- Company name part start -->
+        <section class="container d-none d-sm-none d-md-none d-lg-inline">
+            <h1 class="heading-title fw-bold fs-2 fs-sm-3 fs-lg-1 text-center my-5">Trusted by over 800+ companies</h1>
+
+            <div class="container text-center">
+                <div class="row mb-5">
+                    <div class="col-2 px-4">
+                        <img class="img-fluid" src="images/company/company-1.png" alt="">
+                    </div>
+                    <div class="col-2 px-4">
+                        <img class="img-fluid" src="images/company/company-2.png" alt="">
+                    </div>
+                    <div class="col-2 px-5">
+                        <img class="img-fluid" src="images/company/company-3.png" alt="">
+                    </div>
+                    <div class="col-2 px-4">
+                        <img class="img-fluid" src="images/company/company-4.png" alt="">
+                    </div>
+                    <div class="col-2 px-4">
+                        <img class="img-fluid" src="images/company/company-5.png" alt="">
+                    </div>
+                    <div class="col-2 px-5">
+                        <img class="img-fluid" src="images/company/company-6.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Company name part end -->
+
     </main>
     <!-- Main end -->
+
+    <!-- Footer start -->
+    <footer class="text-light text-center my-5 bg-dark py-5">
+        <div>
+            <h2 class="heading-title text-white">MasterClass</h2>
+            <p><small>Office 29,Tower Building,Malibag <br> Saima Chowdhurani <br>
+                    Privacy Policy | Terms of use</small></p>
+            <div>
+                <a class="text-white fs-4 px-1" href="https://www.facebook.com/"><i
+                        class="fa-brands fa-square-facebook"></i></a>
+                <a class="text-white fs-4 px-1" href="https://twitter.com/"><i
+                        class="fa-brands fa-square-twitter"></i></a>
+                <a class="text-white fs-4 px-1" href="https://www.linkedin.com/"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a class="text-white fs-4 px-1" href="https://www.instagram.com/"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
 
 
 
